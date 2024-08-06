@@ -37,5 +37,4 @@ This project involves generating high-frequency financial data ticks, detecting 
 
 1. **Clone the Repository**:
    ```sh
-   git clone 
-   cd <repository-directory>
+   git clone https://github.com/Anuj9826/high-fequency-tick-spike-generator.git
