@@ -38,3 +38,20 @@ This project involves generating high-frequency financial data ticks, detecting 
 1. **Clone the Repository**:
    ```sh
    git clone https://github.com/Anuj9826/high-fequency-tick-spike-generator.git
+   cd high-fequency-tick-spike-generator
+
+2. **Install Dependencies**:
+   Install the required Node.js packages by running:
+    ```sh
+    npm install
+
+3. **Start the Web Dashboard Server**:
+   Open terminal, start the web server that serves the dashboard:
+   ```sh
+   node index.js
+
+### Code Components
+1. **tickGenerator.js** Generates high-frequency price ticks and sends them to the spike detector.
+2. **spikeDetector.js** Detects significant price spikes and logs them to a CSV file.
+3. **index.js** Serves the CSV log file to the web dashboard and handles HTTP requests.
+4. **public/index.html** Provides a web interface to display price spikes. It fetches log data from the server and updates the table every 5 seconds.
